@@ -34,17 +34,17 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/common"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/vfconfig"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/networkservice/vfconfig"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/resourcepool"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/pci"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/sriovtest"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/yamlhelper"
+	"github.com/ljkiraly/sdk-sriov/pkg/networkservice/common/resourcepool"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/pci"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/sriovtest"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/yamlhelper"
 )
 
 const (

@@ -30,11 +30,11 @@ import (
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/common"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/vfconfig"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/networkservice/vfconfig"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
 )
 
 // PCIPool is a pci.Pool interface

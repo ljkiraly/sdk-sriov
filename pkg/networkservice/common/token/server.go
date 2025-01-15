@@ -26,9 +26,9 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/token/multitoken"
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/token/sharedtoken"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/ljkiraly/sdk-sriov/pkg/networkservice/common/token/multitoken"
+	"github.com/ljkiraly/sdk-sriov/pkg/networkservice/common/token/sharedtoken"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/tokens"
 )
 
 // NewServer returns a new token server chain element for the given tokenKey

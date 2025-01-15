@@ -25,8 +25,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
-	sriovtokens "github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
+	sriovtokens "github.com/ljkiraly/sdk-sriov/pkg/tools/tokens"
 )
 
 const (

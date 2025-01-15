@@ -34,11 +34,11 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/common"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 
-	token "github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/token/multitoken"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	token "github.com/ljkiraly/sdk-sriov/pkg/networkservice/common/token/multitoken"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/tokens"
 )
 
 const (

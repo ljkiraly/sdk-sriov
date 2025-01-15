@@ -17,8 +17,8 @@
 package pci
 
 import (
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/pcifunction"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/pcifunction"
 )
 
 // UpdateConfig updates config with virtual functions

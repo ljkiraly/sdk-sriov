@@ -27,11 +27,11 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/kernel"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/token"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/ljkiraly/sdk-sriov/pkg/networkservice/common/token"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/tokens"
 )
 
 const (

@@ -35,9 +35,9 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/common"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/tokens"
 )
 
 const (

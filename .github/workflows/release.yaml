@@ -33,7 +33,7 @@ jobs:
     needs: get-tag
     uses: networkservicemesh/.github/.github/workflows/release.yaml@main
     secrets:
-      token: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
+      token: ${{ secrets.GITHUB_TOKEN }}
 
   release-dependent-repositories:
     name: Release dependent repositories
@@ -42,12 +42,6 @@ jobs:
     with:
       tag: ${{ needs.get-tag.outputs.tag }}
       dependent_repositories: |
-        ["cmd-forwarder-sriov",
-        "cmd-nsc",
-        "cmd-nsc-init",
-        "cmd-nse-icmp-responder",
-        "cmd-forwarder-vpp",
-        "cmd-nse-vlan-vpp",
-        "sdk-ovs"]
+        ["cmd-forwarder-vpp"]
     secrets:
-      token: ${{ secrets.NSM_BOT_GITHUB_TOKEN }}
+      token: ${{ secrets.GITHUB_TOKEN }}

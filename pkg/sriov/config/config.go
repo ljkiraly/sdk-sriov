@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/networkservicemesh/sdk/pkg/tools/log/logruslogger"
+	"github.com/ljkiraly/sdk/pkg/tools/log/logruslogger"
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/yamlhelper"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/yamlhelper"
 )
 
 // Config contains list of available physical functions

@@ -33,15 +33,15 @@ import (
 
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	"github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/common"
-	"github.com/networkservicemesh/sdk-kernel/pkg/kernel/networkservice/vfconfig"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/utils/metadata"
-	"github.com/networkservicemesh/sdk/pkg/tools/log"
-	"github.com/networkservicemesh/sdk/pkg/tools/postpone"
+	"github.com/ljkiraly/sdk-kernel/pkg/kernel/networkservice/vfconfig"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/networkservice/utils/metadata"
+	"github.com/ljkiraly/sdk/pkg/tools/log"
+	"github.com/ljkiraly/sdk/pkg/tools/postpone"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
-	"github.com/networkservicemesh/sdk-sriov/pkg/tools/tokens"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
+	"github.com/ljkiraly/sdk-sriov/pkg/tools/tokens"
 )
 
 type resourcePoolClient struct {

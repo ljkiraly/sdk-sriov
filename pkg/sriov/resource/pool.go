@@ -24,8 +24,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
 )
 
 // TokenPool is a token.Pool interface

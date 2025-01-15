@@ -25,8 +25,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/config"
-	"github.com/networkservicemesh/sdk-sriov/pkg/sriov/token"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/config"
+	"github.com/ljkiraly/sdk-sriov/pkg/sriov/token"
 )
 
 const (

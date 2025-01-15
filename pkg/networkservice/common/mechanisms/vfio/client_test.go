@@ -35,12 +35,12 @@ import (
 	"github.com/golang/protobuf/ptypes/empty"
 	"github.com/networkservicemesh/api/pkg/api/networkservice"
 	vfiomech "github.com/networkservicemesh/api/pkg/api/networkservice/mechanisms/vfio"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/common/mechanisms"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/chain"
-	"github.com/networkservicemesh/sdk/pkg/networkservice/core/next"
-	"github.com/networkservicemesh/sdk/pkg/tools/grpcutils"
+	"github.com/ljkiraly/sdk/pkg/networkservice/common/mechanisms"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/chain"
+	"github.com/ljkiraly/sdk/pkg/networkservice/core/next"
+	"github.com/ljkiraly/sdk/pkg/tools/grpcutils"
 
-	"github.com/networkservicemesh/sdk-sriov/pkg/networkservice/common/mechanisms/vfio"
+	"github.com/ljkiraly/sdk-sriov/pkg/networkservice/common/mechanisms/vfio"
 )
 
 const (
