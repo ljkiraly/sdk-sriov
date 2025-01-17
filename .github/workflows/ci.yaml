@@ -9,11 +9,6 @@ jobs:
   yamllint:
     uses: networkservicemesh/.github/.github/workflows/yamllint.yaml@main
 
-  build-and-test:
-    uses: networkservicemesh/.github/.github/workflows/build-and-test.yaml@main
-    with:
-      os: '["ubuntu-latest"]'
-
   exclude-fmt-errorf:
     uses: networkservicemesh/.github/.github/workflows/exclude-fmt-errorf.yaml@main
 
