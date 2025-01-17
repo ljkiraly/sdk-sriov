@@ -38,7 +38,7 @@ jobs:
   release-dependent-repositories:
     name: Release dependent repositories
     needs: [get-tag, create-release]
-    uses: networkservicemesh/.github/.github/workflows/release-dependent-repositories.yaml@main
+    uses: ljkiraly/nsm-github/.github/workflows/release-dependent-repositories.yaml@main
     with:
       tag: ${{ needs.get-tag.outputs.tag }}
       dependent_repositories: |
